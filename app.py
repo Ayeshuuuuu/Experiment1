@@ -12,4 +12,5 @@ def register():
     return render_template('register.html')
 
 if __name__ == '__main__':
+    print("hello world")
     app.run(host='0.0.0.0', port=80)
